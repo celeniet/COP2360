@@ -26,7 +26,7 @@ class Program
     }
     catch (FormatException ex)
     {
-      Console.WriteLine("Error: One or both of the inputs are not valid integers. Details: {ex.Message}");
+      Console.WriteLine("$Error: One or both of the inputs are not valid integers. Details: {ex.Message}");
     }
     catch (DivideByZeroException ex)
     {
